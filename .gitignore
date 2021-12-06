@@ -74,3 +74,5 @@ filestorage-dev/*
 datastore-dev/datastore/*
 
 !.gitkeep
+src/main/java/teammates/logic/core/LocalFileStorageService.java
+angular.json
