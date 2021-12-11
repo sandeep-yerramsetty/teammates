@@ -33,6 +33,7 @@ class PostStudentProfilePictureAction extends Action {
         }
     }
 
+    // CS427 Issue link: https://github.com/TEAMMATES/teammates/issues/11152
     @Override
     public JsonResult execute() throws InvalidHttpRequestBodyException {
         try {

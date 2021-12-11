@@ -19,7 +19,8 @@ public class PostStudentProfilePictureActionTest extends BaseActionTest<PostStud
     protected String getRequestMethod() {
         return POST;
     }
-
+    
+    // CS427 Issue link: https://github.com/TEAMMATES/teammates/issues/11152
     @Override
     @Test
     public void testExecute() throws Exception {
